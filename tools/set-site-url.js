@@ -8,7 +8,7 @@ const fs = require("fs");
 const path = require("path");
 const url = (process.argv[2] || "").replace(/\/+$/, "");
 if (!url) {
-  console.error("使い方: node tools/set-site-url.js https://example.github.io/repo");
+  console.error("使い方: node tools/set-site-url.js https://akushu50.github.io/sidework-diagnosis");
   process.exit(1);
 }
 const root = path.join(__dirname, "..");
