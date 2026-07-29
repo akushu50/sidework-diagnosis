@@ -8,11 +8,11 @@
 1. このフォルダの中身を GitHub リポジトリにプッシュします。
 2. リポジトリの **Settings → Pages** を開き、Source を `Deploy from a branch`、
    Branch を `main` / `/ (root)` にして保存します。
-3. 数分後に `https://ユーザー名.github.io/リポジトリ名/` で公開されます。
+3. 数分後に `https://akushu50.github.io/sidework-diagnosis/` で公開されます。
 4. 公開URLが決まったら、シェア画像を有効にするため次を実行してプッシュします。
 
    ```bash
-   node tools/set-site-url.js https://ユーザー名.github.io/リポジトリ名
+   node tools/set-site-url.js https://akushu50.github.io/sidework-diagnosis
    ```
 
    これで `__SITE_URL__` が実際のURLに置き換わります。SNSのクローラーは
@@ -41,7 +41,7 @@ tools/
 
 ```bash
 node tools/build-pages.js
-node tools/set-site-url.js https://ユーザー名.github.io/リポジトリ名
+node tools/set-site-url.js https://akushu50.github.io/sidework-diagnosis
 ```
 
 ### 設問を足す・直す
